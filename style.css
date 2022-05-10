@@ -1,0 +1,89 @@
+
+    /* body{
+        display: flex;
+    } */
+    .update{
+       background-color: blanchedalmond;
+       border: none;
+       border-radius: 5px;
+       padding: 5px;
+       width: 40%;
+
+    }
+    .add{
+      color: white;
+      background-color:rgb(19, 146, 196) ;
+      padding: 5px;
+      border-radius: 5px;
+      width: 50px;
+      border: none;
+      width: 40%;
+
+    }
+    
+    .main{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(202, 214, 24, 0.973);
+    }
+    .left{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* border: 1px solid yellow; */
+      display: flex;
+      width: 50%;
+    }
+    .leftmain{
+      /* border: 1px solid rgb(35, 156, 10); */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-between;
+
+
+    }
+    .right{
+      /* border: 1px solid yellow; */
+      width: 50%;
+
+
+
+    }
+    
+    .form{
+      display: flex;
+      flex-direction: column;
+
+        padding: 15px;
+        border-style: none;
+        border: none;
+        ;
+    }
+    .lab{
+        font-size: 1.3em;
+    }
+    .box{
+        width: 80%;
+        padding: 5px;
+    }
+    .div1{
+        /* border: 1px solid red; */
+        width: 50%;
+    }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

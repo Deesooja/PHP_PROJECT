@@ -64,15 +64,12 @@ echo "Connection Successfull <hr>";
             <table>
                 <thead>
                     <tr>
-
                         <th> ID</th>
                         <th> Name</th>
                         <th> roll</th>
                         <th> address</th>
                         <th> DELETE</th>
                         <th> Edit</th>
-
-
                     </tr>
                 </thead>
                 <tbody>

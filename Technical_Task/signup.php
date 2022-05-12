@@ -9,6 +9,7 @@ if (isset($_REQUEST['submit'])) {
         $fistname = $_REQUEST['fistname'];
         $lastname = $_REQUEST['lastname'];
         $username = $_REQUEST['username'];
+        // ----------------VALIDATION------------------
         if ($_REQUEST['email']) {
             $email = $_REQUEST['email'];
             if (filter_var($email, FILTER_VALIDATE_EMAIL)) {

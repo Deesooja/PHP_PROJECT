@@ -1,0 +1,58 @@
+/*----------------- For table----------------------- */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+/* ---------------For table END---------------- */
+
+
+
+/* ---------------For student.php ---------------- */
+table{
+  width: 60%;
+}
+.studentmain1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.studentmaininfo{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+
+}
+.studentmain2{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.studentmainsearch{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+
+
+/* ---------------For student.php END---------------- */
+.signupmain{
+  display: flex;
+  flex-direction: column;
+width: 30%;
+}
+
+

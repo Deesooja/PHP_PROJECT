@@ -32,7 +32,7 @@ if (isset($_REQUEST['submit'])) {
 
         $password = $_REQUEST['password'];
         $cpassword = $_REQUEST['cpassword'];
-        if ($password == $password) {
+        if ($password == $cpassword) {
             // $password = $_POST['password'];
             $number = preg_match('@[0-9]@', $password);
             $uppercase = preg_match('@[A-Z]@', $password);

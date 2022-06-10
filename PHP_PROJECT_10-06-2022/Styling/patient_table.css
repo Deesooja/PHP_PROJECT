@@ -1,0 +1,39 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .add_patient_form{
+
+    display: flex;
+    /* justify-content: space-between; */
+      position: relative;
+      padding: 10px;
+      /* border: 2px solid red; */
+      width: 90%;
+  }
+  .patient_add_submit{
+      padding: 10px;
+      background-color: rgb(180, 230, 106);
+      color: black;
+      border: none;
+      border-radius: 5px;
+  }
+  .patient_view_submit{
+    padding: 10px;
+    background-color: rgb(29, 208, 231);
+    color: black;
+    border: none;
+    border-radius: 5px;
+
+  }
